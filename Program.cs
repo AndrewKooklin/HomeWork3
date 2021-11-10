@@ -6,6 +6,8 @@ namespace HomeWork3
     {
         static void Main(string[] args)
         {
+            // Домашнее задание 1
+
             string fullName = "Kuklin Andrey Vladimirovich";
             int age = 49;
             string e_mail = "andykook@yandex.ru";
@@ -24,7 +26,20 @@ namespace HomeWork3
 
             Console.WriteLine(output);
 
-            Console.ReadLine();
+            Console.ReadKey();
+
+            // Домашнее задание 2
+
+            double sum_scores = progr + maths + (double)physics;
+            string sum = $" Sum scores : {sum_scores:##.##}";
+            Console.WriteLine(sum);
+            Console.ReadKey();
+
+            double average_scores = sum_scores / 3;
+            string average = $" Average scores : {average_scores:##.##}";
+            Console.WriteLine(average);
+            Console.ReadKey();
+
         }
     }
 }
