@@ -6,7 +6,7 @@ namespace HomeWork3
     {
         static void Main(string[] args)
         {
-            string fullName = "Kuklin Anrey Vladimirovich";
+            string fullName = "Kuklin Andrey Vladimirovich";
             int age = 49;
             string e_mail = "andykook@yandex.ru";
             double progr = 3.52D;
